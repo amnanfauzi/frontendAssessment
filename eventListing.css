@@ -1,0 +1,78 @@
+@media (max-width: 800px) {
+    #eventListContainer { grid-template-columns:max-content !important; }
+    .eventImg{max-width:100% !important;}
+  }
+  
+  body
+  {
+    font-size:11px;
+  }
+  select
+  {
+    padding:4px;
+    font-size:11px;
+    width:100px;
+    border-radius:3px;
+  }
+  .eventImg
+  {
+    border-radius:4px;
+    aspect-ratio: 1.5 / 1;
+    max-width:400px;
+    z-index:-1;
+  }
+  .dayOfMonthContainer
+  {
+    font-size:30px;
+    width:50px;
+    height:50px;
+    text-align:center;
+    z-index:0;
+    position:absolute;
+    left:30px;
+    top:26px;
+    color:white;
+    border-radius:4px;
+    padding:4px;
+    border:solid 1px white;
+  }
+  .dayOfMonth
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .eventName
+  {
+    /*display:inline-block;*/
+    font-weight:bold;
+    z-index:0;
+    position:absolute;
+    left:25px;
+    bottom:20px;
+    color:white;
+    font-size:33px;
+  }
+  #eventListContainer
+  {
+    display:grid;
+    grid-template-columns:max-content max-content;
+    gap:30px;
+  }
+  .favButton
+  {
+    position:absolute;
+    top:26px;
+    right:25px;
+    z-index:0;
+    color:white;
+  }
+  .material-icons:hover
+  {
+    cursor:pointer;
+  }
+  .formElements
+  {
+    font-weight:500;
+  }
